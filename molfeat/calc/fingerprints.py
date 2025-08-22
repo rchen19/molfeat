@@ -57,6 +57,11 @@ FP_DEF_PARAMS = {
         "resetVect": False,
         "bitFlags": pyAvalonTools.avalonSimilarityBits,
     },
+    "avalon-count": {
+        "nBits": 512,
+        "isQuery": False,
+        "bitFlags": pyAvalonTools.avalonSimilarityBits,
+    },
     "ecfp": {
         "radius": 2,  # ECFP4
         "fpSize": 2048,
@@ -171,11 +176,6 @@ FP_DEF_PARAMS = {
         "countBounds": None,
         "fpSize": 2048,
         "atomInvariantsGenerator": None,
-    },
-    "avalon-count": {
-        "nBits": 512,
-        "isQuery": False,
-        "bitFlags": pyAvalonTools.avalonSimilarityBits,
     },
     "atompair-count": {
         "minDistance": 1,
